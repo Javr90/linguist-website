@@ -3,46 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Consultant - Your Name</title>
+    <title>Creative Language Consultant</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f7f5f2;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #88a096;
             color: white;
-            padding: 1rem 0;
+            padding: 1rem;
             text-align: center;
         }
         nav {
             text-align: center;
-            margin: 1rem 0;
+            background-color: #f5f0eb;
+            padding: 0.5rem;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #88a096;
             font-weight: bold;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #b5838d;
         }
         .hero {
             text-align: center;
-            padding: 3rem 1rem;
-            background-color: #eaf7ea;
+            padding: 4rem 1rem;
+            background-color: #e8eae6;
         }
         .hero h1 {
             font-size: 2.5rem;
-            margin: 0;
+            margin-bottom: 1rem;
+            color: #88a096;
         }
         .hero p {
             font-size: 1.2rem;
-            margin: 1rem 0 0;
+            margin-bottom: 2rem;
+            color: #6b705c;
+        }
+        .hero button {
+            background-color: #88a096;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #b5838d;
         }
         .section {
             max-width: 800px;
@@ -52,10 +68,27 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+        .section h2 {
+            color: #88a096;
+            text-align: center;
+        }
+        .testimonials {
+            background-color: #f5f0eb;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .testimonial {
+            margin: 1rem auto;
+            max-width: 600px;
+            font-style: italic;
+            color: #6b705c;
+            border-left: 4px solid #88a096;
+            padding-left: 1rem;
+        }
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #4CAF50;
+            background-color: #88a096;
             color: white;
             margin-top: 2rem;
         }
@@ -68,37 +101,41 @@
     <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#blog">Blog</a>
+        <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="hero">
-        <h1>Bridging Cultures, Unlocking Communication</h1>
-        <p>Expert in Language Consulting, Translation, and Teaching</p>
+        <h1>Professional Language Consulting</h1>
+        <p>Creative solutions for translation, teaching, and cross-cultural communication</p>
+        <button>Contact Me</button>
     </div>
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Welcome! I'm a professional linguist passionate about connecting people through language. With years of experience in language consulting, translation, and teaching, I help individuals and businesses communicate effectively across cultures.</p>
+        <p>Welcome! I'm a professional linguist with a passion for bridging cultural gaps through language. Whether you need expert translations, personalized language lessons, or cultural consulting, I'm here to help.</p>
     </section>
     <section id="services" class="section">
         <h2>Services</h2>
         <ul>
-            <li><strong>Language Consulting:</strong> Tailored advice for cultural and linguistic challenges.</li>
-            <li><strong>Translation:</strong> Accurate and culturally sensitive translations.</li>
-            <li><strong>Teaching:</strong> Customized language lessons for all levels.</li>
+            <li><strong>Language Consulting:</strong> Tailored advice for linguistic and cultural challenges.</li>
+            <li><strong>Translation:</strong> Accurate, culturally sensitive translations.</li>
+            <li><strong>Teaching:</strong> Personalized language lessons for individuals and groups.</li>
         </ul>
     </section>
-    <section id="portfolio" class="section">
-        <h2>Portfolio</h2>
-        <p>Explore my past projects, from translation work to teaching materials. (Coming soon!)</p>
-    </section>
-    <section id="blog" class="section">
-        <h2>Blog</h2>
-        <p>Check out my latest articles on language tips, cultural insights, and more. (Coming soon!)</p>
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            "Working with [Your Name] was a fantastic experience. Their insights into cultural nuances transformed our project!" - Client A
+        </div>
+        <div class="testimonial">
+            "The personalized lessons were exactly what I needed to improve my language skills. Highly recommend!" - Student B
+        </div>
+        <div class="testimonial">
+            "Accurate and timely translations every time. A true professional!" - Client C
+        </div>
     </section>
     <section id="contact" class="section">
         <h2>Contact</h2>
-        <p>Ready to work together? Get in touch via email or the contact form below.</p>
+        <p>Ready to work together? Reach out via email or the contact form below!</p>
         <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
     </section>
     <footer>
